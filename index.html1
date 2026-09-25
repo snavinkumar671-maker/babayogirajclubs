@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baba Yogiraj Club Chiyanki</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baba Yogiraj Club</title>
 <style>
- body{margin:0;font-family:sans-serif;background:#fffde7;text-align:center}
- header{background:white;padding:20px}
- .logo{width:200px;height:200px;object-fit:cover;border-radius:50%;border:4px solid #4e342e}
- .banner{width:98%;max-width:900px;border-radius:12px;margin:15px auto;border:3px solid gold;display:block}
- h1{color:#b71c1c} h2{color:#333}
- .footer{background:#3e2723;color:white;padding:15px;margin-top:20px}
+body{margin:0;font-family:sans-serif;background:#fffde7;text-align:center}
+header{background:white;padding:20px}
+.logo{width:180px;height:180px;border-radius:50%;border:4px solid #4e342e;object-fit:cover}
+.banner{width:98%;max-width:900px;border-radius:10px;margin:15px auto;border:3px solid gold;display:block}
+.footer{background:#3e2723;color:white;padding:15px;margin-top:20px}
 </style>
 </head>
 <body>
 <header>
- <img src="logo.jpg" class="logo">
- <h1>श्री श्री सरस्वती पूजा महोत्सव</h1>
- <h2>बाबा योगी राज क्लब, चियांकी पहाड़ी टोला</h2>
- <p>आपका हार्दिक स्वागत है!</p>
+<img src="logo.jpg" class="logo">
+<h1>श्री श्री सरस्वती पूजा महोत्सव</h1>
+<h2>बाबा योगी राज क्लब, चियांकी</h2>
 </header>
-
-<img src="banner.jpg" class="banner">
-
-<div class="footer">
- जय माँ सरस्वती! | Baba Yogiraj Club Chiyanki
-</div>
+<img src="puja-poster.jpg" class="banner">
+<div class="footer">जय माँ सरस्वती!</div>
 </body>
 </html>
