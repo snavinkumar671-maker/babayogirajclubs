@@ -17,17 +17,3 @@ body{margin:0;font-family:sans-serif;background:#fffbe6}
 <div class="header">
 <img src="logo.jpg"><h1 style="margin:5px">श्री श्री सरस्वती पूजा महोत्सव</h1>
 <p>बाबा योगी राज क्लब, चियांकी</p>
-</div>
-<img src="puja-poster.jpg" style="width:100%">
-<div style="background:#1a2332;color:white;text-align:center;padding:12px;margin:10px;border-radius:8px">सेवा • संस्कृति • संगठन - हमारी गैलरी</div>
-<div class="grid">
-<div class="card"><img src="a1.jpg"><div class="t"><h3>1. युवा टीम</h3></div></div>
-<div class="card"><img src="a2.jpg"><div class="t"><h3>2. टीम सदस्य</h3></div></div>
-<div class="card"><img src="a3.jpg"><div class="t"><h3>3. सरस्वती पूजा</h3></div></div>
-<div class="card"><img src="a4.jpg"><div class="t"><h3>4. भव्य पंडाल</h3></div></div>
-<div class="card"><img src="a5.jpg"><div class="t"><h3>5. ट्रॉफी वितरण</h3></div></div>
-<div class="card"><img src="a6.jpg"><div class="t"><h3>6. विजेता टीम</h3></div></div>
-<div class="card"><img src="a7.jpg"><div class="t"><h3>7. फाइनल ग्रुप - नया</h3></div></div>
-</div>
-</body>
-</html>
