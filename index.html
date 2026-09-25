@@ -5,50 +5,62 @@
 <title>बाबा योगीराज क्लब</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}body{font-family:system-ui;background:#fff8e8}
-nav{background:#7a0000;color:#fff;padding:12px;text-align:center;font-weight:bold}
-.top{max-width:1100px;margin:auto}
-.top img{width:100%;display:block}
-.logo-top{background:#fff;text-align:center;padding:20px 10px}
-.logo-top img{width:200px;height:200px;border-radius:50%;border:4px solid #7a0000}
-.poster{padding:10px;background:#fff}
-.poster img{width:100%;border-radius:12px;border:3px solid #7a0000;display:block}
-.section{padding:14px;max-width:1100px;margin:auto}
-.card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-.gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
-.gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+nav{background:#4a0a0a;color:#ffd88a;padding:10px;text-align:center;font-weight:bold;position:sticky;top:0;z-index:10}
+
+/* BABA LOGO UPAR */
+.top-logo{text-align:center;background:#fff;padding:22px 15px 15px}
+.top-logo img{width:180px;height:180px;border-radius:50%;border:5px solid #8a1c1c;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.top-logo h1{color:#4a0a0a;font-size:24px;margin-top:12px}
+.top-logo p{color:#666;font-size:13px}
+
+/* POSTER USKE NICHE */
+.poster{padding:8px}
+.poster img{width:100%;border-radius:12px;display:block;box-shadow:0 5px 18px rgba(0,0,0,.2)}
+
+.section{max-width:800px;margin:auto;padding:14px}
+.card{background:#fff;padding:14px;border-radius:10px;line-height:1.6;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+
+/* PHOTO BADI-BADI SAAF */
+.gallery{display:grid;grid-template-columns:1fr;gap:16px;margin-top:14px}
+.gallery img{width:100%;height:auto;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.15);display:block}
+@media(min-width:600px){.gallery{grid-template-columns:1fr 1fr}}
+
+footer{background:#111;color:#888;text-align:center;padding:18px;font-size:13px;margin-top:15px}
 </style>
 </head>
 <body>
 <nav>बाबा योगीराज क्लब, चियांकी - 822102</nav>
 
-<div class="top">
-<!-- 1. BABA WALA LOGO UPAR -->
-<div class="logo-top">
-<img src="FB_IMG_1790343236325.jpg">
-<h2 style="margin-top:10px;color:#7a0000">बाबा योगीराज क्लब, चियांकी</h2>
-<p>चियांकी पहाड़ी टोला, मेदिनीनगर - 822102</p>
+<!-- BABA WALA LOGO UPAR - RED WALA -->
+<div class="top-logo">
+<img src="FB_IMG_1790343258697.jpg" alt="Baba Logo">
+<h1>बाबा योगीराज क्लब, चियांकी</h1>
+<p>चियांकी पहाड़ी टोला, मेदिनीनगर, पलामू - 822102<br>सेवा • संस्कृति • संगठन</p>
 </div>
 
-<!-- 2. POSTER WALA EK KADAM NICHE -->
+<!-- POSTER EK KADAM NICHE -->
 <div class="poster">
-<img src="puja-poster.jpg">
-</div>
+<img src="puja-poster.jpg" alt="Saraswati Puja Poster">
 </div>
 
 <div class="section">
-<div class="card">हमारा क्लब चियांकी के युवाओं द्वारा संचालित है। सरस्वती पूजा, होली समारोह और समाज सेवा हमारा लक्ष्य है।</div>
+<div class="card">
+<b>जय बाबा योगीराज!</b><br>
+स्थान: चियांकी पहाड़ी टोला, मेदिनीनगर, पलामू (822102)<br>
+क्लब: चियांकी के युवाओं द्वारा संचालित सामाजिक-सांस्कृतिक संगठन।
+</div>
 
-<h3 style="text-align:center;margin:18px 0 8px;color:#7a0000">गैलरी</h3>
+<h3 style="text-align:center;margin:20px 0 5px;color:#4a0a0a">गैलरी - सारी फोटो बड़ी</h3>
 <div class="gallery">
 <img src="IMG-20260925-WA0033.jpg">
 <img src="IMG-20260922-WA8504.jpg">
 <img src="IMG-20260905-WA0011.jpg">
 <img src="IMG-20260501-WA0008.jpg">
 <img src="IMG-20260501-WA0009.jpg">
-<img src="FB_IMG_1790343258697.jpg">
+<img src="FB_IMG_1790343236325.jpg">
 </div>
 </div>
 
-<div style="background:#222;color:#777;text-align:center;padding:15px;margin-top:10px">© 2026 बाबा योगीराज क्लब</div>
+<footer>© 2026 बाबा योगीराज क्लब, चियांकी</footer>
 </body>
 </html>
